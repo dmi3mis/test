@@ -1,4 +1,4 @@
-FROM ubi8/ubi
+FROM registry.access.redhat.com/ubi8/ubi
 MAINTAINER dmitrymis@outlook.com
 LABEL description="A custom Apache container image based on UBI 8"
 RUN dnf install -y httpd && dnf clean all
